@@ -45,11 +45,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\FormaGeometrica.cs" />
+    <Compile Include="Classes\FormasGeometricas\Circulo.cs" />
+    <Compile Include="Classes\FormasGeometricas\Cuadrado.cs" />
+    <Compile Include="Classes\FormasGeometricas\IFormaGeometrica.cs" />
+    <Compile Include="Classes\FormasGeometricas\TrapecioRectangulo.cs" />
+    <Compile Include="Classes\FormasGeometricas\TrianguloEquilatero.cs" />
+    <Compile Include="Classes\Idiomas\Castellano.cs" />
+    <Compile Include="Classes\Idiomas\IIdioma.cs" />
+    <Compile Include="Classes\Idiomas\Ingles.cs" />
+    <Compile Include="Classes\ReporteFormasGeometricas.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
