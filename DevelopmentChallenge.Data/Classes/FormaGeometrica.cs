@@ -18,6 +18,7 @@ using System.Text;
 
 namespace DevelopmentChallenge.Data.Classes
 {
+    [Obsolete("Esta clase es obsoleta. Por favor use la interfaz IFormaGeometrica y las clases que la implementan.")]
     public class FormaGeometrica
     {
         #region Formas
