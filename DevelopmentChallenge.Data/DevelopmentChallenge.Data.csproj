@@ -53,6 +53,7 @@
     <Compile Include="Classes\Idiomas\Castellano.cs" />
     <Compile Include="Classes\Idiomas\IIdioma.cs" />
     <Compile Include="Classes\Idiomas\Ingles.cs" />
+    <Compile Include="Classes\Idiomas\Italiano.cs" />
     <Compile Include="Classes\ReporteFormasGeometricas.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
